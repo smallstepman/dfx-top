@@ -1,0 +1,27 @@
+{
+  "name": "top",
+  "version": "0.0.1",
+  "homepage": "https://github.com/smallstepman/dfx-top",
+  "authors": "MNL",
+  "summary": "Terminal User Interface dashboard for DFX.",
+  "categories": [
+    "dfx"
+  ],
+  "keywords": [
+    "dfx",
+    "dashboard"
+  ],
+  "subcommands": {
+    "run": {
+      "about": "Start a dashboard."
+      },
+    "register-dfx-project": {
+      "about": "Install an NNS on the local dfx server.",
+      "args": {
+        "ledger_accounts": {
+          "about": "Initialize ledger canister with these test accounts"
+        }
+    }
+      }
+    }
+  }
